@@ -1,0 +1,84 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    margin: 50px;
+}
+.box1
+{
+    height: 200px;
+    width: 50px;
+    background-color: brown;
+    position: absolute;
+    top: -200px;
+    left: 14px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+.box2
+{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    background-color:blue;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px palevioletred;
+    left: 77px;
+}
+    .box3
+    {
+    height: 200px;
+    width: 50px;
+    background-color: blue;
+    position: absolute;
+    left: 15px;
+    top: 73px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px palevioletred;
+}
+.box4
+{
+    height: 50px;
+    width: 200px;
+    background-color:blue;
+    position: absolute;
+    left: -200px;
+    top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px palevioletred;
+}
+.box5
+{
+    height: 50px;
+    width: 200px;
+    background-color:blue;
+    position: absolute;
+    left: -62px;
+    top: -126px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px palevioletred;
+    transform: rotate(90deg);
+}
+
+.main{
+    height: 80px;
+    width: 80px;
+    border: 2px solid palevioletred;
+    border-radius: 50%;
+    position: relative;
+    background-color:blue;
+    top: 185px;
+    left: 385px;
+    box-shadow: 5px 5px 10px palevioletred;
+    z-index: 2;
+}
+
+.main:hover{
+    transition: 3s linear;
+    transform: rotate(360deg);
+}
